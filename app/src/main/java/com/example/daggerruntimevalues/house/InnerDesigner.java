@@ -17,5 +17,8 @@ public class InnerDesigner implements Designer{
     public InnerDesigner(String name, int experience) {
         this.name = name;
         this.experience = experience;
+
+       setDesignerName();
+       setDesignerYearOfExperience();
     }
 }

@@ -20,5 +20,8 @@ public class Builder implements Engineer {
     public Builder(String name, int age) {
         this.name = name;
         this.age = age;
+
+        setEngineerAge();
+        setEngineerName();
     }
 }

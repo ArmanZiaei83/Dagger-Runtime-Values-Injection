@@ -30,6 +30,6 @@ public class House {
     }
 
     public void buildTheHouse(){
-        System.out.println("House Has Bees Built");
+        System.out.println("House Has Been Built");
     }
 }
