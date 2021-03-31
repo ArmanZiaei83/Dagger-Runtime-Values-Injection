@@ -1,5 +1,7 @@
 package com.example.daggerruntimevalues.house;
 
+import javax.inject.Inject;
+
 public class Builder implements Engineer {
 
     String name;
