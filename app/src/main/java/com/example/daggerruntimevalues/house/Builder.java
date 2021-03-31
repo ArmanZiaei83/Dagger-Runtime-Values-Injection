@@ -8,13 +8,13 @@ public class Builder implements Engineer {
     int age;
 
     @Override
-    public void setEngineerName(String name) {
-        this.name = name;
+    public void setEngineerName() {
+        System.out.println("Engineer Name : " + name);
     }
 
     @Override
-    public void setEngineerAge(int age) {
-        this.age = age;
+    public void setEngineerAge() {
+        System.out.println("Engineer Age : " + age);
     }
 
     public Builder(String name, int age) {

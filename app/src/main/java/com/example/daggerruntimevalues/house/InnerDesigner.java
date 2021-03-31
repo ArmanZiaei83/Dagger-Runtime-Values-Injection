@@ -5,13 +5,13 @@ public class InnerDesigner implements Designer{
     int experience;
 
     @Override
-    public void setDesignerName(String name) {
-        this.name = name;
+    public void setDesignerName() {
+        System.out.println("Designer Name : " + name);
     }
 
     @Override
-    public void setDesignerYearOfExperience(int experience) {
-        this.experience = experience;
+    public void setDesignerYearOfExperience() {
+        System.out.println("Designer Experience : " + experience);
     }
 
     public InnerDesigner(String name, int experience) {
