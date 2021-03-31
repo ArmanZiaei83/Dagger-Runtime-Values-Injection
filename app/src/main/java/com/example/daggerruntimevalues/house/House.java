@@ -30,9 +30,6 @@ public class House {
     }
 
     public void buildTheHouse(){
-        engineer.buildTheBaseHouse();
-        designer.innerDesign();
-
         System.out.println("House Has Bees Built");
     }
 }
