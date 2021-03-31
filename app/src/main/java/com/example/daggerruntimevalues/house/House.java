@@ -1,10 +1,13 @@
 package com.example.daggerruntimevalues.house;
 
+import javax.inject.Inject;
+
 public class House {
 
     Engineer engineer;
     Designer designer;
 
+    @Inject
     public House(Engineer engineer, Designer designer) {
         this.engineer = engineer;
         this.designer = designer;
