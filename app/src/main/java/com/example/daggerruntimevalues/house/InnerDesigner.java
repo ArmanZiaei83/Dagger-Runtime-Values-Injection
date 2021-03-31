@@ -13,7 +13,7 @@ public class InnerDesigner implements Designer{
     public void setDesignerYearOfExperience(int experience) {
         this.experience = experience;
     }
-    
+
     public InnerDesigner(String name, int experience) {
         this.name = name;
         this.experience = experience;
